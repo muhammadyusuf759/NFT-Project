@@ -1,0 +1,106 @@
+.more {
+  padding-top: 80px;
+}
+
+.more_wrapper_item-text {
+  font-size: 38px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.more_wrapepr_item-minitext {
+  font-size: 22px;
+  font-weight: 300;
+  color: white;
+}
+
+.more_wrapper_item-btn {
+  padding: 19px 50px 19px 50px;
+  background-color: transparent;
+  border: none;
+  border: 1px solid #a259ff;
+
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.more_wrapper_item-btn:before {
+  position: absolute;
+  content: "";
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  background-image: url(/Photos/Eye.svg);
+  left: 19px;
+  bottom: 18px;
+}
+
+.more_wrapper-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.more_bottom-box {
+  width: 420px;
+  height: 469px;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  margin-top: 60px;
+}
+
+.more_bottom_avatar-box {
+  @include d-flex(flex, 12px);
+  padding-top: 5px;
+  padding-left: 30px;
+}
+
+.more_bottom-title {
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.more_bottom_avatar-name {
+  font-family: "Space Mono";
+  font-size: 16px;
+  color: white;
+}
+
+.more_bottom_avatar-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.more_bottom_avatar_menu {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 46px;
+}
+
+.more_bottom_avatar-price {
+  font-size: 12px;
+  color: #858584;
+  font-weight: 300;
+  font-family: "Space Mono";
+}
+
+.more_bottom_avatar-number {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  font-family: "Space Mono";
+}
+
+.more_wrapper_bottom_box {
+  @include d-flex(flex, 30px);
+}

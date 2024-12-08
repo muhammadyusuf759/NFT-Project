@@ -1,0 +1,91 @@
+.creator__title {
+  color: white;
+  font-size: 46px;
+}
+.creator__text {
+  font-size: 35px;
+  color: white;
+  font-weight: 300;
+}
+.creator__header {
+  @include d-flex(flex, 0px);
+  justify-content: space-between;
+}
+
+.creators {
+  padding-top: 160px;
+}
+
+.creator_wrapper-btn {
+  padding: 19px 50px 19px 50px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  margin-top: 70px;
+}
+
+.creator_wrapper-btn:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url(/Photos/faster_raket.svg);
+  background-size: cover;
+  left: 22px;
+}
+.yumaloq {
+  width: 110px;
+  height: 120px;
+  background-color: white;
+  border-radius: 50%;
+  margin: auto;
+
+  background-size: cover;
+}
+.creator__avatar {
+  background-color: #3b3b3b;
+  width: 240px;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+}
+.creator__avatar-title {
+  color: white;
+  font-size: 22px;
+  margin: 20px 0 5px;
+  text-align: center;
+}
+.creator__avatar-text {
+  color: #858584;
+  text-align: center;
+}
+.creator__spn {
+  color: white;
+}
+.position {
+  background-color: #2b2b2b;
+  color: #858584;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  left: 20px;
+}
+.creator__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 60px;
+}
+
+.creator__box_avatar {
+padding-left: 40px;
+}

@@ -1,0 +1,117 @@
+.magic__wrapper {
+  background-image: linear-gradient(to top, #a259ff, transparent),
+    url("/Photos/MUSHUK.png");
+  height: 640px;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  background-size: contain;
+  padding: 380px 115px 0;
+}
+.magic__title {
+  font-size: 51px;
+  color: white;
+}
+
+.magic__minibox {
+  width: 151px;
+  height: 44px;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.magic__btn {
+  padding: 19px 50px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+  color: #2b2b2b;
+  text-align: center;
+  margin-top: 30px;
+}
+.minibox-text {
+  color: white;
+  font-size: 16px;
+  padding-top: 11px;
+  position: relative;
+}
+.magic__minibox:before {
+  position: absolute;
+  background-image: url(/Photos/avatarchaa.png);
+  width: 24px;
+  height: 24px;
+  content: "";
+  background-size: cover;
+  left: 10px;
+  top: 10px;
+  right: 20px;
+}
+
+.magic__btn::after {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-image: url(/Photos/Eye.svg);
+  background-size: cover;
+  left: 26px;
+  bottom: 17px;
+}
+
+.magic__right-box {
+  width: 295px;
+  height: 147px;
+  background-color: #3b3b3b;
+  opacity: 0.8;
+  border-radius: 20px;
+  margin-top: 100px;
+
+}
+
+.magic__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.magic__right_box_title {
+  font-size: 14px;
+  font-family: "Space Mono";
+  color: white;
+  padding: 30px 30px 10px 30px;
+}
+
+.right_box_menu-item {
+  display: flex;
+}
+
+.right_box_menu-hour {
+  font-size: 38px;
+  color: white;
+  font-weight: 600;
+}
+
+.right_box_menu-hour-name {
+  font-size: 13px;
+  font-family: "Space Mono";
+  color: white;
+}
+
+.right_box_menu-hour_dor {
+  font-size: 28px;
+  color: white;
+}
+
+.magic__right_box-menu {
+  display: flex;
+  padding-left: 30px;
+  
+}
+
+.right_box_menu-item {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}

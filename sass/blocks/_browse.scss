@@ -1,0 +1,42 @@
+.browse_wrapper-item {
+  width: 240px;
+  height: 316px;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+    transition: 0.1s linear;
+}
+
+.browse_wrapper-title {
+  font-size: 38px;
+  color: white;
+  font-weight: 600;
+}
+
+.browse_wrapper_item-content {
+  border-radius: 22px 22px 0px 0px;
+}
+
+.browse_wrapper_content-info {
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.browse_wrapper_content-box {
+  width: 1050px;
+  height: 662px;
+  flex-wrap: wrap;
+  @include d-flex(flex, 20px);
+  margin-left: 115px;
+  margin-top: 60px;
+}
+
+.browse_wrapper_content-box {
+  @include d-flex(flex, space-between);
+}
+
+.browse_wrapper-item:hover {
+  transform: scale(1.2);
+}

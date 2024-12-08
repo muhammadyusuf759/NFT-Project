@@ -1,0 +1,40 @@
+.work__title {
+    font-size:38px;
+    color:white;
+    margin-top:120px;
+}
+.work__text {
+    font-size:22px;
+    margin-top: 10px;
+    margin-bottom: 48px;
+    color:white;
+} 
+.rasm {
+    width:250px ;
+    height:250px;
+    background-color: white;
+    margin:auto;
+}
+.work__box {
+    background-color: #3B3B3B;
+    padding:10px 30px 30px;
+    width:330px;
+    border-radius: 20px;
+}
+.work__wrapper-title {
+    color:white;
+    font-size:22px;
+    margin-top: 20px;
+    margin-bottom:10px;
+    text-align:center;
+}
+.work__wrapper-text {
+    color:white;
+    text-align:center;
+}
+.work__wrapper {
+    display: flex;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+}

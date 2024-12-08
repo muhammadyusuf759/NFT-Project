@@ -1,0 +1,109 @@
+.main_wrapper_right-box {
+  width: 510px;
+  height: 544px;
+}
+
+.main_wrapper_right-title {
+  color: white;
+  font-weight: 600;
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.main_wrapper_right_mini-text {
+  font-size: 22px;
+  color: white;
+  line-height: 35.2px;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+}
+
+.btn {
+  padding: 19px 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: #a259ff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+}
+
+.btn:before {
+  position: absolute;
+  content: "";
+  background-image: url(/Photos/raketa.svg);
+  background-size: cover;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  bottom: 19px;
+}
+
+.main_wrapper_right_menu-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_wrapper_right-menu {
+  @include d-flex(flex, 30px);
+}
+
+.main_wrapper_right_menu-count {
+  font-size: 28px;
+  color: white;
+  font-family: "Space Mono", monospace;
+  font-weight: 600;
+}
+
+.main_wrapper_right_menu-Sale {
+  font-size: 23px;
+  font-weight: 400;
+  color: white;
+}
+
+.main_wrapper_right-menu {
+  padding-top: 30px;
+}
+
+.main_wrapper_right-box {
+  padding-top: 80px;
+}
+
+.main_wrapper_left-box {
+  width: 510px;
+  height: 510px;
+  background-color: #3b3b3b;
+  margin-top: 80px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.main_wrapper_content {
+  border-radius: 20px 20px 0 0;
+}
+
+.main_wrapper {
+  @include d-flex(space-between, 0);
+}
+
+.main_wrapper_right-name {
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-top: 22px;
+}
+
+.main_wrapper_right_avatar-box {
+  @include d-flex(flex, 12px);
+}
+
+.main_wrapper_right_avatar-name {
+  font-size: 16px;
+  color: white;
+}
+
+.main_wrapper_right_avatar-box {
+  padding-left: 20px;
+  padding-top: 10px;
+}
